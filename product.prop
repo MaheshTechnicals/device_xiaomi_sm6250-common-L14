@@ -3,9 +3,6 @@ ro.hardware.camera=xiaomi
 ro.com.google.lens.oem_camera_package=com.android.camera
 
 # Display
-debug.sf.hw=0
-debug.egl.hw=0
-debug.sf.latch_unsignaled=1
 debug.mdpcomp.logs=0
 vendor.gralloc.disable_ubwc=0
 vendor.display.disable_scaler=0
