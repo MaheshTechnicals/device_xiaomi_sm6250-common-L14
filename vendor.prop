@@ -127,6 +127,9 @@ ro.crypto.volume.options=::v2
 # Dalvik
 dalvik.vm.dex2oat64.enabled=true
 
+# DRM
+drm.service.enabled=true
+
 # Display
 debug.performance.tuning=1
 debug.sf.auto_latch_unsignaled=0
@@ -185,8 +188,6 @@ ro.hardware.keystore_desede=true
 # Media
 debug.stagefright.ccodec=1
 debug.stagefright.omx_default_rank=0
-drm.service.enabled=true
-media.stagefright.thumbnail.prefer_hw_codecs=true
 
 # Netflix
 ro.netflix.bsp_rev=Q6250-19132-1
