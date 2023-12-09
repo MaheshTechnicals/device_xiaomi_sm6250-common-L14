@@ -109,7 +109,6 @@ PRODUCT_PACKAGES += \
     disable_configstore \
     gralloc.atoll \
     hwcomposer.atoll \
-    libtinyxml \
     memtrack.atoll
 
 PRODUCT_PACKAGES += \
