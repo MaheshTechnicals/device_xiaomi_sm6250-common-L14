@@ -109,8 +109,6 @@ PRODUCT_PACKAGES += \
     disable_configstore \
     gralloc.atoll \
     hwcomposer.atoll \
-    libdisplayconfig.qti \
-    libqdMetaData \
     libtinyxml \
     memtrack.atoll
 
