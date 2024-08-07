@@ -62,6 +62,7 @@ persist.vendor.cp.fcc_main_ua=400000
 persist.dbg.volte_avail_ovr=1
 persist.dbg.vt_avail_ovr=1
 persist.dbg.wfc_avail_ovr=1
+persist.dbg.ims_volte_enable=1
 
 # Media
 media.stagefright.thumbnail.prefer_hw_codecs=true
@@ -100,6 +101,11 @@ ro.telephony.default_network=22,22
 ro.vendor.use_data_netmgrd=true
 telephony.lteOnCdmaDevice=1
 persist.sys.fflag.override.settings_provider_model=false
+persist.radio.volte.dan_support=true
+persist.radio.rat_on=combine
+persist.radio.data_ltd_sys_ind=1
+persist.radio.calls.on.ims=1
+persist.radio.VT_ENABLE=1
 
 # Thermal configs path
 sys.thermal.data.path=/data/vendor/thermal/
@@ -113,3 +119,7 @@ persist.vendor.sensors.enable.mag_filter=true
 
 # Storage.xml moment
 persist.sys.binary_xml=false
+
+# Other Options
+persist.sys.cust.lte_config=true
+persist.rcs.supported=1
