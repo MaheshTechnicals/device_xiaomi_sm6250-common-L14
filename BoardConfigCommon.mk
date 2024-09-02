@@ -102,6 +102,9 @@ MALLOC_SVELTE_FOR_LIBC32 := true
 TARGET_USES_ION := true
 TARGET_DISABLED_UBWC := true
 
+# MiuiCamera
+-include vendor/xiaomi/miuicamera/BoardConfigMiuiCamera.mk
+
 # Lineage Health
 TARGET_HEALTH_CHARGING_CONTROL_CHARGING_PATH := /sys/class/power_supply/battery/input_suspend
 TARGET_HEALTH_CHARGING_CONTROL_CHARGING_ENABLED := 0
